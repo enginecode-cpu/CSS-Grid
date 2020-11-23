@@ -1,0 +1,20 @@
+.container > h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.grid-container {
+  display: grid;
+  justify-items: center;
+}
+.grid-item {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: tomato;
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+}
+.grid-item > h2 {
+  font-size: 30px;
+}
