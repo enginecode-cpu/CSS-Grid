@@ -1,0 +1,50 @@
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+.container > h1 {
+  text-align: center;
+  font-size: 50px;
+}
+button {
+  border: none;
+  width: 100px;
+  height: 40px;
+  font-size: 22px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: -7px -7px 15px
+  rgba(255, 255, 255, .65),
+  7px 7px 15px
+  rgba(70, 70, 70, .3);
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 15px;
+}
+.grid-item {
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 20px;
+  display: grid;
+  justify-items: start;
+  align-items: center;
+}
+
+.item1 {
+  background-color: #686de0;
+}
+.item2 {
+  background-color: #6ab04c;
+}
+.item3 {
+  background-color: #b71540;
+}
+.item4 {
+  background-color: #0a3d62;
+}
